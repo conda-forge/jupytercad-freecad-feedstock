@@ -27,7 +27,7 @@ requirements:
     - python >=3.8
     - jupyter_ydoc >=2,<3
     - jupytercad_core >=2,<3
-    - freecad
+    - freecad <1
 
 test:
   imports:
