@@ -1,5 +1,5 @@
 {% set name = "jupytercad-freecad" %}
-{% set version = "2.0.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupytercad_freecad-{{ version }}.tar.gz
-  sha256: 1e88c0085cc294fdf11400bd2bb921c05e90ef72207bcf32e097ad35aae4060a
+  sha256: 24df9df19715c4a40b8c95dca29426b572269e8d4107b80376b8cd1f9fbdbb07
 
 build:
   noarch: python
@@ -25,8 +25,8 @@ requirements:
     - hatch-nodejs-version >=0.3.2
   run:
     - python >=3.8
-    - jupyter_ydoc >=2,<3
-    - jupytercad_core >=2,<3
+    - jupyter_ydoc >=3,<4
+    - jupytercad_core >=3,<4
     - freecad <1
 
 test:
