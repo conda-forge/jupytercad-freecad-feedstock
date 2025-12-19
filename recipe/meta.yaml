@@ -27,7 +27,7 @@ requirements:
     - python >={{ python_min }}
     - jupyter_server
     - jupyter_ydoc >=3,<4
-    - jupytercad_core >=3.4,<4
+    - jupytercad-core >=3.4,<4
     - freecad <1
 
 test:
