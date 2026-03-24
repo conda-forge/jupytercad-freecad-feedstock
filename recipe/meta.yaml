@@ -1,5 +1,5 @@
 {% set name = "jupytercad-freecad" %}
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupytercad_freecad-{{ version }}.tar.gz
-  sha256: 0c4a60dea58fb2a3d5035de303fcb70692e1d58c6e399d6dc9c94c4ffed0abbf
+  sha256: 3a7378a756cbff0f275ec980c7b6b2ba44a51a2de19f9b74a0102c94ace43264
 
 build:
   noarch: python
